@@ -231,8 +231,9 @@ margin-left: 690px;
 .image {
     display: flex;
     content: " ";
-    display: table;
+    /* display: table; */
     clear: both;
+    
 
 
 }
