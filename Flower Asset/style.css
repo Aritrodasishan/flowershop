@@ -2,13 +2,19 @@ body{
     font-family: 'lato', sans-serif;
     font-family: 'open sans' sans-serif;
 }
-
-.nav-title{
-    
+/* nav {
     display: flex;
-    width: 708px;
-    flex-direction: column;
-    flex-shrink: 0;
+} */
+
+
+/* font size */
+.nav-title{  
+
+    display: flex;
+width: 708px;
+flex-direction: column;
+flex-shrink: 0;
+    
     color: #272727;
 font-family: Lato;
 font-size: 60px;
@@ -31,6 +37,8 @@ line-height: normal;
 
 }
 
+
+ */
 .home{
     display: flex;
     align-items: center;
@@ -44,6 +52,8 @@ header{
 height: 850px;
 flex-shrink: 0;
     background-color: rgba(229, 84, 115, 0.10);
+}
+.banner-title{ 
     color: rgba(39, 39, 39, 0.60);
 font-family: Lato;
 font-size: 12px;
@@ -51,14 +61,15 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; 
 }
+
 /* banner */
 .banner{
     padding: 50px 30px 30px 150px;
-    /* display: flex; */
+    
 width: 634px;
 flex-direction: column;
 flex-shrink: 0;
-display: flex;
+
 
 }
 .button{
@@ -78,10 +89,9 @@ font-weight: 700;
 line-height: normal;
 
 }
-.banner image
+.image
 {
     padding: 30 30 30 150 ;
-    
     width: 635px;
     height: 800px;
     flex-shrink: 0;
@@ -162,14 +172,8 @@ height: 4867px;
     height: 396px;
     flex-shrink: 0;
 }
-.dealstext{
-    
-}
-style p{
-    width: 1440px;
-height: 449px;
-flex-shrink: 0;
-}
+
+
 .deal{
     width: 1440px;
 height: 449px;
