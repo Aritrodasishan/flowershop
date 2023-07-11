@@ -7,7 +7,7 @@
 }
 
 .hero{
-    height: 700px;
+    height: 818px;
     background: rgba(229, 84, 115, 0.10);
     width: 1920px;
     display: flex;
@@ -21,8 +21,11 @@
     font-size: 15px;
 }
 .right_side{
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 40px;
+
+    
     
 } 
 
@@ -32,10 +35,11 @@ button{
 background: #E55473;
 
     border: none;
-    padding: 20px 40px;
+    padding: 20px 43px;
     border-radius: 10px;
     color: white;
     margin-top: 10px;
+    font-size: 20px;
 }
 
 /* body{
@@ -111,6 +115,9 @@ line-height: normal;
     color: white;
     border-radius: 10px;
 }
+.cta image{
+    float: right;
+}
 
 .stylish{
     color: #E55473;
@@ -139,7 +146,7 @@ font-family: Lato;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px;  */
+line-height: 30px;  
 
 } 
 
@@ -256,10 +263,26 @@ height: 4867px;
 }
 
 
-.deal{
+/* .deal{
     width: 1440px;
 height: 449px;
 flex-shrink: 0;
+} */
+
+
+.deals{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(rectangle9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 1000px;
+height: 100px;
+border-radius: 8px;
+
 }
 footer{
     width: 1922px;
