@@ -1,14 +1,52 @@
-body{
+*{
+    margin:0;
+    padding:0;
+    font-family: lato;
+    box-sizing:border-box;
+
+}
+
+.hero{
+    height: 700px;
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    display: flex;
+}
+.left_side{
+    margin-top: 200px;
+    padding-left: 100px;
+    font-size: 30px;
+}
+.left_side p{
+    font-size: 15px;
+}
+.right_side{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    
+} 
+
+
+button{
+    border-radius: 8px;
+background: #E55473;
+
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* body{
     font-family: 'lato', sans-serif;
     font-family: 'open sans' sans-serif;
-}
-/* nav {
-    display: flex;
 } */
 
 
+
 /* font size */
-.nav-title{  
+ .nav-title{   
 
     display: flex;
 width: 708px;
@@ -39,45 +77,89 @@ line-height: normal;
 
 
  */
-.home{
+
+ .cta{
+    background: #FEF7F8;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.cta_text{
+    text-align: center;
+    padding-top: 50px;
+}
+.cta p{
+    font-size: 18px;
+    color: #7D7A7B;
+    font-weight: 200px;
+    margin-bottom: 20px;
+    padding: 0px px80;
+}
+
+.cta button{
+    background-color: #E55473;
+    border: none;
+    padding: 20px 60px;
+    color: white;
+    border-radius: 10px;
+}
+
+.stylish{
+    color: #E55473;
+}
+.rightpicture{
+float: right; 
+} 
+
+/* .home{
     display: flex;
     align-items: center;
     min-height: 100vh;
     /* background: url(../Flower\ Asset/pngwing.png) no-repeat;  */
-    background: cover;
+    /* background: cover;
     background-position: center;
-}
-header{
+}  */
+/* header{
     width: 1920px;
-height: 850px;
+
 flex-shrink: 0;
     background-color: rgba(229, 84, 115, 0.10);
-}
+} */
 .banner-title{ 
     color: rgba(39, 39, 39, 0.60);
 font-family: Lato;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; 
-}
+line-height: 30px;  */
+
+} 
 
 /* banner */
-.banner{
+/* .banner{
     padding: 50px 30px 30px 150px;
-    
-width: 634px;
-flex-direction: column;
-flex-shrink: 0;
+    display: flex; */
+/* width: 634px; */
+/* flex-direction: column; */
+/* flex-shrink: 0; */
 
-
-}
+/* } */
 .button{
     border-radius: 8px;
     background-color: #E55473;
     padding: 20px 43px;
-align-items: flex-start;gap: 10px;
+align-items: flex-start;
+gap: 10px;
 display: inline-flex;
+
 
 
 color: white;
@@ -105,21 +187,16 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
-.para{
+/* .para{
 
-    display: flex;
-width: 594px;
-flex-direction: column;
-flex-shrink: 0;
 
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-family: Lato;
 font-size: 18px;
 font-style: normal;
-font-weight: 400;
-line-height: 30px;
-}
+
+} */
 .secondbanner button{
     display: inline-flex;
 padding: 20px 43px;
@@ -138,39 +215,44 @@ border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
 
 } 
-.insta{
+.insta h4{
     color: #272727;
 text-align: center;
-/* font-family: Lato; */
+font-family: Lato;
 font-size: 40px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
 
-
 }
-.parag {
+.insta p{ 
     display: flex;
+    text-align: center;
 width: 594px;
 flex-direction: column;
 flex-shrink: 0;
 color: rgba(39, 39, 39, 0.60);
-text-align: center;
+
 font-family: Lato;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+   
 }
+
+.image {
+    display: flex;
+    width: 342px;
+height: 396px;
+flex-shrink: 0;
+}
+
+
 
 section{
     width: 1920px;
 height: 4867px;
-}
-.instapicture{
-    width: 342px;
-    height: 396px;
-    flex-shrink: 0;
 }
 
 
@@ -183,31 +265,40 @@ footer{
     width: 1922px;
 height: 449px;
 flex-shrink: 0;
-
 background: #111010;
+text-align: center;
+
+
 }
-.Flowershop1 {
+.flowershop {
     color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+display: flex;
+
+}
+.flowershop p{
+    color: white;
+    font-size: 18px;
     font-family: Lato;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-   
+}
+.flowerstyle{
+    
+    color: #FFFFFF; 
 }
 
-.parashop{
-display: flex;
-width: 625px;
-flex-direction: column;
-flex-shrink: 0;
-    color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+
+.flowershop h3 {
+    margin-top: 50px;
+}
+.paragraph {
+    text-align: center;
 }
 .link {
     color: rgba(255, 255, 255, 0.40);
@@ -217,4 +308,5 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
 }
