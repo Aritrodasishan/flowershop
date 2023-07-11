@@ -42,10 +42,7 @@ background: #E55473;
     font-size: 20px;
 }
 
-/* body{
-    font-family: 'lato', sans-serif;
-    font-family: 'open sans' sans-serif;
-} */
+
 
 
 
@@ -88,6 +85,9 @@ line-height: normal;
     display: flex;
     align-items: center;
     justify-content: center;
+
+
+    
 }
 
 .cta h3{
@@ -98,7 +98,7 @@ line-height: normal;
 }
 .cta_text{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .cta p{
     font-size: 18px;
@@ -115,8 +115,12 @@ line-height: normal;
     color: white;
     border-radius: 10px;
 }
-.cta image{
-    float: right;
+.cta_image{
+float: right;
+    margin-left: 50%;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    margin-top: 0px;
 }
 
 .stylish{
@@ -126,20 +130,7 @@ line-height: normal;
 float: right; 
 } 
 
-/* .home{
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    /* background: url(../Flower\ Asset/pngwing.png) no-repeat;  */
-    /* background: cover;
-    background-position: center;
-}  */
-/* header{
-    width: 1920px;
 
-flex-shrink: 0;
-    background-color: rgba(229, 84, 115, 0.10);
-} */
 .banner-title{ 
     color: rgba(39, 39, 39, 0.60);
 font-family: Lato;
@@ -150,15 +141,7 @@ line-height: 30px;
 
 } 
 
-/* banner */
-/* .banner{
-    padding: 50px 30px 30px 150px;
-    display: flex; */
-/* width: 634px; */
-/* flex-direction: column; */
-/* flex-shrink: 0; */
 
-/* } */
 .button{
     border-radius: 8px;
     background-color: #E55473;
@@ -194,16 +177,7 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
-/* .para{
 
-
-    color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-
-} */
 .secondbanner button{
     display: inline-flex;
 padding: 20px 43px;
@@ -222,6 +196,10 @@ border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
 
 } 
+
+.instagram{
+    justify-content: center;
+}
 .insta h4{
     color: #272727;
 text-align: center;
@@ -230,6 +208,7 @@ font-size: 40px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+margin-left: 190px;
 
 }
 .insta p{ 
@@ -245,29 +224,30 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+margin-left: 690px;
    
 }
 
 .image {
     display: flex;
-    width: 342px;
-height: 396px;
-flex-shrink: 0;
+    content: " ";
+    display: table;
+    clear: both;
+
+
+}
+.image1{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: 20px;
+    margin-left: 20px;
 }
 
 
 
-section{
-    width: 1920px;
-height: 4867px;
-}
 
 
-/* .deal{
-    width: 1440px;
-height: 449px;
-flex-shrink: 0;
-} */
 
 
 .deals{
