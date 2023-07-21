@@ -190,6 +190,7 @@ line-height: normal;
     width: 550px;
 height: 600px;
 display: flex;
+padding-top: 2%;
 }
 .instagram image {
     display: flex;
